@@ -1,11 +1,11 @@
 /* Based on http://www.sql.ru/forum/actualutils.aspx?action=gotomsg&tid=1090122&msg=21124717 */
 
-DROP FUNCTION IF EXISTS `_fs_transliterate_ru`;
+DROP FUNCTION IF EXISTS TRANSLIT;
 
 /* Necessary because the semicolon is used within function */
 DELIMITER //
 
-FUNCTION `_fs_transliterate_ru`(str TEXT CHARSET utf8)
+FUNCTION TRANSLIT(str TEXT CHARSET utf8)
 RETURNS text CHARSET utf8
 
 /* Characteristic */
