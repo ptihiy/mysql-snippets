@@ -26,7 +26,7 @@ BEGIN
 
   SET i =             0;
   SET resultStr =     '';
-  SET strlow =        LOWER(str);
+  SET loweredStr =    LOWER(str);
   SET strLength =     CHAR_LENGTH(str);
   SET alphabeth =     ' .абвгдеёжзийклмнопрстуфхцчшщъыьэюя';
 
